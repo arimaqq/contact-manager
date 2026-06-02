@@ -11,5 +11,6 @@ Delete contact by name - Удаление существующего конта�
 Exit - Выход
 
 ### Windows (MinGW / GCC)
+```bash
 g++ -std=c++11 -o ContactManager.exe main.cpp Contact.cpp ContactManager.cpp
 ./ContactManager.exe
